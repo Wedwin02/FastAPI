@@ -1,2 +1,24 @@
 Entorno Virtual Anaconda 
 https://www.anaconda.com/products/distribution/download-success-2
+
+Comando Utilizados 
+conda create --name prueba python=3
+Perimite levantar el entorno virtual
+conda activate fastapi-mysql
+conda deactivate
+
+pip install fastapi uvicorn
+uvicorn app:app
+
+
+
+Comandos
+instalar composer 
+instalar nodejs
+npm install 
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan storage:link
+php artisan serve
+npm run watch

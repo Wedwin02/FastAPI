@@ -1,0 +1,19 @@
+Metodo Post
+/paciente
+{
+    "DNI": "11112",
+    "Nombre": "Edwin",
+    "Direccion": "11112",
+    "CodigoPostal": "11112",
+    "Telefono": "Edwin",
+    "Genero": "11112",
+    "FechaNacimiento": "1997-11-03",
+    "Correo": "11112"
+
+}
+Metodo GetAll
+/paciente
+Metodo GetByID
+/paciente/12
+Metodo delete
+/paciente/12

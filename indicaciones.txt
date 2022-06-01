@@ -6,9 +6,11 @@ conda create --name prueba python=3
 Perimite levantar el entorno virtual
 conda activate fastapi-mysql
 conda deactivate
-
+pip install sqlalchemy
+pip install pymysql
+pip install cryptography
 pip install fastapi uvicorn
-uvicorn app:app
+uvicorn app:app --reload
 
 
 
